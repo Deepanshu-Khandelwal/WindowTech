@@ -165,10 +165,12 @@ $sysInfo = Get-TechSystemSummary
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
-                        <DockPanel Grid.Row="0" Background="#2D2D30" Padding="6,3,6,3">
-                            <TextBlock Text="REAL-TIME EXECUTION AUDIT LOG" FontSize="10" FontWeight="Bold" Foreground="#AAAAAA"/>
-                            <Button Name="btnClearLog" Content="Clear Log" HorizontalAlignment="Right" FontSize="9" Padding="4,1,4,1"/>
-                        </DockPanel>
+                        <Border Grid.Row="0" Background="#2D2D30" Padding="6,3,6,3">
+                            <DockPanel>
+                                <TextBlock Text="REAL-TIME EXECUTION AUDIT LOG" FontSize="10" FontWeight="Bold" Foreground="#AAAAAA"/>
+                                <Button Name="btnClearLog" Content="Clear Log" HorizontalAlignment="Right" FontSize="9" Padding="4,1,4,1"/>
+                            </DockPanel>
+                        </Border>
                         <TextBox Name="txtLogConsole" Grid.Row="1" Background="#000000" Foreground="#00FF00" IsReadOnly="True" VerticalScrollBarVisibility="Auto" FontFamily="Consolas" FontSize="10" TextWrapping="Wrap"/>
                     </Grid>
                 </Border>
