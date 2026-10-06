@@ -99,6 +99,10 @@ function Invoke-TechUsbWizard {
     }
 }
 
-if ($MyInvocation.MyCommand.ScriptBlock.Module) {
-    Export-ModuleMember -Function Invoke-TechUsbWizard
+if ($MyInvocation.InvocationName -ne '.' -and -not $MyInvocation.MyCommand.ScriptBlock.Module) {
+    Invoke-TechUsbWizard
+} else {
+    if ($MyInvocation.MyCommand.ScriptBlock.Module) {
+        Export-ModuleMember -Function Invoke-TechUsbWizard
+    }
 }
