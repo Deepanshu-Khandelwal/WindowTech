@@ -1,0 +1,202 @@
+[2026-10-06 00:24:38] [INFO] [Detection] Gathering system hardware, firmware, and OS metrics...
+[2026-10-06 00:24:49] [SUCCESS] [Detection] System detection completed successfully.
+[2026-10-06 00:25:26] [INFO] [HealthCheck] Starting Automated 10-Point PC Health Check...
+[2026-10-06 00:25:26] [INFO] [Detection] Gathering system hardware, firmware, and OS metrics...
+[2026-10-06 00:25:34] [SUCCESS] [Detection] System detection completed successfully.
+[2026-10-06 00:25:34] [INFO] [HealthCheck] Evaluated system hardware profile for Microsoft Windows 11 Home Single Language.
+[2026-10-06 00:25:35] [SUCCESS] [HealthCheck] PC Health Report saved to 'C:\Users\Machine\Desktop\Window\Scripts\..\Diagnostics\PC_Health_Report.json' (Status: YELLOW, Score: 80/100).
+[2026-10-06 00:26:09] [INFO] [OfflineServicing] Scanning all volumes for offline Windows installations...
+[2026-10-06 00:26:10] [SUCCESS] [OfflineServicing] Found Windows installation at 'C:\Windows' (Build: 26100).
+[2026-10-06 09:29:06] [INFO] [USBBuilder] ============================================================
+[2026-10-06 09:29:06] [INFO] [USBBuilder]   BOOTABLE USB & EXTERNAL SSD PREPARATION WIZARD            
+[2026-10-06 09:29:06] [INFO] [USBBuilder] ============================================================
+[2026-10-06 09:29:09] [INFO] [DiskManager] Enumerating attached storage drives...
+[2026-10-06 09:29:44] [INFO] [USBBuilder] ============================================================
+[2026-10-06 09:29:45] [INFO] [USBBuilder]   BOOTABLE USB & EXTERNAL SSD PREPARATION WIZARD            
+[2026-10-06 09:29:45] [INFO] [USBBuilder] ============================================================
+[2026-10-06 09:29:46] [INFO] [DiskManager] Enumerating attached storage drives...
+[2026-10-06 09:30:25] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 09:30:25] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 09:30:25] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 09:30:25] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 09:30:25] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 09:30:49] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 09:30:49] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 09:30:49] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 09:30:49] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 09:30:49] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 10:33:45] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 10:44:29] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 10:44:29] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 10:44:29] [ERROR] [Backup] Robocopy backup reported errors (Exit Code: 16).
+[2026-10-06 10:44:33] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 10:44:33] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 10:44:33] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 10:44:33] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 10:44:33] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 10:45:35] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 10:45:35] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 10:45:35] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 10:45:37] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 10:45:38] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 10:45:38] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 10:45:38] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 10:45:38] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 10:53:16] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 10:53:16] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 10:53:16] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 10:53:19] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 10:53:19] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 10:53:19] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 10:53:19] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 10:53:19] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 11:06:44] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 11:06:44] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 11:06:44] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 11:06:46] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 11:06:46] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 11:06:46] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 11:06:46] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 11:06:46] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 11:08:06] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 11:08:07] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 11:08:07] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 11:08:09] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 11:08:09] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 11:08:09] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 11:08:09] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 11:08:09] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 11:12:26] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 11:12:26] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 11:12:26] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 11:12:28] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 11:12:28] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 11:12:29] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 11:12:29] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 11:12:29] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 11:41:23] [INFO] [WinPEBuild] ============================================================
+[2026-10-06 11:41:23] [INFO] [WinPEBuild]    ULTIMATE PC TECHNICIAN TOOLKIT - WINPE BUILDER SYSTEM   
+[2026-10-06 11:41:23] [INFO] [WinPEBuild] ============================================================
+[2026-10-06 11:41:23] [INFO] [Safety] Safety Check initiated for [Build WinPE ISO] on [C:\Users\Machine\Desktop\Window\WinPE\..\Build\Output\UltimateTechnician-x64.iso] (Risk: MEDIUM)
+[2026-10-06 11:41:23] [WARN] [Safety] [DRY-RUN MODE]: Would execute 'Build WinPE ISO' on 'C:\Users\Machine\Desktop\Window\WinPE\..\Build\Output\UltimateTechnician-x64.iso'. Skipping actual execution.
+[2026-10-06 11:41:23] [INFO] [WinPEBuild] [DRY-RUN]: Verified build environment. ISO build target: C:\Users\Machine\Desktop\Window\WinPE\..\Build\Output\UltimateTechnician-x64.iso
+[2026-10-06 11:45:10] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 11:45:10] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 11:45:10] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 11:45:14] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 11:45:14] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 11:45:15] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 11:45:15] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 11:45:15] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 11:54:20] [INFO] [SelfCheck] Starting Toolkit Self-Check procedure...
+[2026-10-06 11:54:22] [SUCCESS] [SelfCheck] Toolkit Self-Check finished with status 'READY'.
+[2026-10-06 12:04:49] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 12:04:49] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 12:04:49] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 12:04:51] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 12:04:51] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 12:04:51] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 12:04:51] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 12:04:52] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 12:04:52] [INFO] [SelfCheck] Starting Toolkit Self-Check procedure...
+[2026-10-06 12:04:52] [SUCCESS] [SelfCheck] Toolkit Self-Check finished with status 'READY'.
+[2026-10-06 12:04:52] [INFO] [UpdateManager] Validating update manifest at 'C:\Users\Machine\Desktop\Window\Build\release-manifest.json'...
+[2026-10-06 12:05:42] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 12:05:42] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 12:05:42] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 12:05:44] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 12:05:44] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 12:05:44] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 12:05:44] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 12:05:44] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 12:05:45] [INFO] [SelfCheck] Starting Toolkit Self-Check procedure...
+[2026-10-06 12:05:45] [SUCCESS] [SelfCheck] Toolkit Self-Check finished with status 'READY'.
+[2026-10-06 12:05:45] [INFO] [UpdateManager] Validating update manifest at 'C:\Users\Machine\Desktop\Window\Build\release-manifest.json'...
+[2026-10-06 12:05:45] [INFO] [UpdateManager] Checking configuration version and migration status...
+[2026-10-06 12:19:49] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 12:19:49] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 12:19:49] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 12:19:51] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 12:19:51] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 12:19:51] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 12:19:51] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 12:19:51] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 12:19:51] [INFO] [SelfCheck] Starting Toolkit Self-Check procedure...
+[2026-10-06 12:19:52] [SUCCESS] [SelfCheck] Toolkit Self-Check finished with status 'READY'.
+[2026-10-06 12:19:52] [INFO] [UpdateManager] Validating update manifest at 'C:\Users\Machine\Desktop\Window\Build\release-manifest.json'...
+[2026-10-06 12:19:52] [INFO] [UpdateManager] Checking configuration version and migration status...
+[2026-10-06 12:26:29] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 12:26:30] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 12:26:30] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 12:26:32] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 12:26:32] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 12:26:32] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 12:26:32] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 12:26:33] [INFO] [HardwareValidation] Generating Hardware Validation Report for machine (Class: ClassA_Disposable)...
+[2026-10-06 12:26:33] [INFO] [Detection] Gathering system hardware, firmware, and OS metrics...
+[2026-10-06 12:26:44] [SUCCESS] [Detection] System detection completed successfully.
+[2026-10-06 12:26:44] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 12:26:44] [INFO] [SelfCheck] Starting Toolkit Self-Check procedure...
+[2026-10-06 12:26:44] [SUCCESS] [SelfCheck] Toolkit Self-Check finished with status 'READY'.
+[2026-10-06 12:26:44] [INFO] [UpdateManager] Validating update manifest at 'C:\Users\Machine\Desktop\Window\Build\release-manifest.json'...
+[2026-10-06 12:26:44] [INFO] [UpdateManager] Checking configuration version and migration status...
+[2026-10-06 12:27:39] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 12:27:39] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 12:27:39] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 12:27:41] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 12:27:41] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 12:27:41] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 12:27:41] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 12:27:41] [INFO] [HardwareValidation] Generating Hardware Validation Report for machine (Class: ClassA_Disposable)...
+[2026-10-06 12:27:41] [INFO] [Detection] Gathering system hardware, firmware, and OS metrics...
+[2026-10-06 12:27:49] [SUCCESS] [Detection] System detection completed successfully.
+[2026-10-06 12:27:49] [INFO] [DiskManager] Enumerating attached storage drives...
+[2026-10-06 12:27:50] [SUCCESS] [HardwareValidation] Saved hardware validation report to 'C:\Users\Machine\Desktop\Window\Scripts\..\Diagnostics\Hardware_Validation_Report.json'.
+[2026-10-06 12:27:50] [INFO] [HardwareValidation] Checking hardware validation safety policy for operation 'Wipe Disk' (Class: ClassC_ProductionUser, Destructive: True)...
+[2026-10-06 12:27:50] [CRITICAL] [HardwareValidation] SAFETY BLOCK: Destructive operation 'Wipe Disk' is STRICTLY FORBIDDEN on Class C (Production/User) machines!
+[2026-10-06 12:27:50] [INFO] [HardwareValidation] Checking hardware validation safety policy for operation 'Wipe Disk' (Class: ClassA_Disposable, Destructive: True)...
+[2026-10-06 12:27:50] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 12:27:50] [INFO] [SelfCheck] Starting Toolkit Self-Check procedure...
+[2026-10-06 12:27:50] [SUCCESS] [SelfCheck] Toolkit Self-Check finished with status 'READY'.
+[2026-10-06 12:27:50] [INFO] [UpdateManager] Validating update manifest at 'C:\Users\Machine\Desktop\Window\Build\release-manifest.json'...
+[2026-10-06 12:27:50] [INFO] [UpdateManager] Checking configuration version and migration status...
+[2026-10-06 12:33:02] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 12:33:02] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 12:33:03] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 12:33:05] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 12:33:05] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 12:33:05] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 12:33:05] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 12:33:05] [INFO] [HardwareValidation] Generating Hardware Validation Report for machine (Class: ClassA_Disposable)...
+[2026-10-06 12:33:05] [INFO] [Detection] Gathering system hardware, firmware, and OS metrics...
+[2026-10-06 12:33:14] [SUCCESS] [Detection] System detection completed successfully.
+[2026-10-06 12:33:14] [INFO] [DiskManager] Enumerating attached storage drives...
+[2026-10-06 12:33:14] [SUCCESS] [HardwareValidation] Saved hardware validation report to 'C:\Users\Machine\Desktop\Window\Scripts\..\Diagnostics\Hardware_Validation_Report.json'.
+[2026-10-06 12:33:14] [INFO] [HardwareValidation] Checking hardware validation safety policy for operation 'Wipe Disk' (Class: ClassC_ProductionUser, Destructive: True)...
+[2026-10-06 12:33:14] [CRITICAL] [HardwareValidation] SAFETY BLOCK: Destructive operation 'Wipe Disk' is STRICTLY FORBIDDEN on Class C (Production/User) machines!
+[2026-10-06 12:33:14] [INFO] [HardwareValidation] Checking hardware validation safety policy for operation 'Wipe Disk' (Class: ClassA_Disposable, Destructive: True)...
+[2026-10-06 12:33:14] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 12:33:14] [INFO] [SelfCheck] Starting Toolkit Self-Check procedure...
+[2026-10-06 12:33:14] [SUCCESS] [SelfCheck] Toolkit Self-Check finished with status 'READY'.
+[2026-10-06 12:33:14] [INFO] [UpdateManager] Validating update manifest at 'C:\Users\Machine\Desktop\Window\Build\release-manifest.json'...
+[2026-10-06 12:33:14] [INFO] [UpdateManager] Checking configuration version and migration status...
+[2026-10-06 12:43:56] [INFO] [Safety] Safety Check initiated for [File Backup (Robocopy)] on [Source [C:\Users\Machine\Desktop\Window\Tests\TestData\Source] -> Destination [C:\Users\Machine\Desktop\Window\Tests\TestData\Destination]] (Risk: MEDIUM)
+[2026-10-06 12:43:56] [INFO] [Backup] Starting file backup via Robocopy from 'C:\Users\Machine\Desktop\Window\Tests\TestData\Source' to 'C:\Users\Machine\Desktop\Window\Tests\TestData\Destination'...
+[2026-10-06 12:43:56] [SUCCESS] [Backup] File backup completed successfully (Robocopy Exit Code: 1).
+[2026-10-06 12:43:58] [INFO] [Safety] Safety Check initiated for [Wipe Disk] on [Disk 1] (Risk: DESTRUCTIVE)
+[2026-10-06 12:43:58] [CRITICAL] [Safety] CRITICAL SAFETY BLOCK: Target Disk 1 is the ACTIVE BOOT MEDIA / TECHNICIAN DRIVE! Destructive operations on active boot media are strictly forbidden.
+[2026-10-06 12:43:59] [ERROR] [Cloning] CRITICAL ERROR: Source Disk and Destination Disk CANNOT be identical!
+[2026-10-06 12:43:59] [CRITICAL] [Cloning] CRITICAL SAFETY BLOCK: Destination Disk 1 is the ACTIVE TECHNICIAN BOOT DRIVE!
+[2026-10-06 12:43:59] [INFO] [HardwareValidation] Generating Hardware Validation Report for Test ID 'UT-FIELD-20261006-124359' (Class: ClassA_Disposable)...
+[2026-10-06 12:43:59] [INFO] [Detection] Gathering system hardware, firmware, and OS metrics...
+[2026-10-06 12:44:08] [SUCCESS] [Detection] System detection completed successfully.
+[2026-10-06 12:44:08] [INFO] [DiskManager] Enumerating attached storage drives...
+[2026-10-06 12:44:08] [SUCCESS] [HardwareValidation] Saved field validation report 'UT-FIELD-20261006-124359' to 'C:\Users\Machine\Desktop\Window\Scripts\..\Diagnostics\FieldValidation\UT-FIELD-20261006-124359'.
+[2026-10-06 12:44:08] [INFO] [HardwareValidation] Checking hardware validation safety policy for operation 'Wipe Disk' (Class: ClassC_ProductionUser, Destructive: True)...
+[2026-10-06 12:44:08] [CRITICAL] [HardwareValidation] SAFETY BLOCK: Destructive operation 'Wipe Disk' is STRICTLY FORBIDDEN on Class C (Production/User) machines!
+[2026-10-06 12:44:08] [INFO] [HardwareValidation] Checking hardware validation safety policy for operation 'Wipe Disk' (Class: ClassA_Disposable, Destructive: True)...
+[2026-10-06 12:44:08] [DEBUG] [Testing] Unit Test Log Message
+[2026-10-06 12:44:08] [INFO] [SelfCheck] Starting Toolkit Self-Check procedure...
+[2026-10-06 12:44:08] [SUCCESS] [SelfCheck] Toolkit Self-Check finished with status 'READY'.
+[2026-10-06 12:44:08] [INFO] [UpdateManager] Validating update manifest at 'C:\Users\Machine\Desktop\Window\Build\release-manifest.json'...
+[2026-10-06 12:44:08] [INFO] [UpdateManager] Checking configuration version and migration status...

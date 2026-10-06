@@ -1,0 +1,5 @@
+GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991
+
+MemTest86+ is licensed under GPLv2.
+Source: https://www.memtest.org

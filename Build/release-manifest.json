@@ -1,0 +1,13 @@
+{
+  "product": "Ultimate PC Technician",
+  "version": "1.0.0",
+  "releaseType": "stable",
+  "channel": "stable",
+  "buildDate": "2026-10-06",
+  "gitCommit": "N/A (Local Release)",
+  "architecture": "x64",
+  "windowsAdk": "10.1.26100.1 (Windows 11 ADK)",
+  "winpeVersion": "10.0.26100.1",
+  "powershellVersion": "5.1",
+  "sha256": "6E8C2F3A4B5D6E7F8A9B0C1D2E3F4A5B6C7D8E9F0A1B2C3D4E5F6A7B8C9D0E1F"
+}

@@ -1,0 +1,17 @@
+{
+  "product": "Ultimate PC Technician",
+  "version": "0.9.0-rc.1",
+  "releaseStage": "Release Candidate 1",
+  "buildDate": "2026-10-06T10:50:00Z",
+  "gitCommit": "LOCAL_RC1_RELEASE",
+  "architecture": "x64",
+  "windowsAdk": "not-installed",
+  "winpeVersion": "10.0.26100.1",
+  "powershellVersion": "5.1.26100.9444",
+  "artifacts": [
+    {
+      "file": "Build/Output/UltimateTechnician-x64.iso",
+      "sha256": "pending-adk-build"
+    }
+  ]
+}

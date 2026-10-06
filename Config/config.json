@@ -1,0 +1,43 @@
+{
+  "ToolkitName": "Ultimate PC Technician Toolkit",
+  "Version": "1.0.0",
+  "ReleaseChannel": "stable",
+  "ConfigVersion": 1,
+  "Author": "Open Source PC Technician Community",
+  "License": "MIT",
+  "Branding": {
+    "TechnicianName": "Lead Systems Engineer",
+    "CompanyName": "Thakuriya PC Tech Solutions",
+    "ContactInfo": "support@techniciantoolkit.local",
+    "Theme": "Dark",
+    "AccentColor": "#0078D4",
+    "LogoPath": "Config/logo.png"
+  },
+  "Settings": {
+    "OfflineMode": true,
+    "EnableDryRunDefault": false,
+    "RequireDestructiveConfirmation": true,
+    "LogDirectory": "Logs",
+    "AutoSaveReports": true,
+    "DefaultWindowsIsoPath": "WindowsInstall",
+    "DriverRepositoryPath": "Drivers",
+    "PortableAppsPath": "PortableApps"
+  },
+  "Security": {
+    "AllowCredentialTheft": false,
+    "AllowActivationBypass": false,
+    "EnforceBitLockerProtection": true,
+    "DestructiveConfirmationKeyword": "CONFIRM"
+  },
+  "WinPEConfig": {
+    "ScratchSpaceMB": 512,
+    "OptionalComponents": [
+      "WinPE-NetFX",
+      "WinPE-WMI",
+      "WinPE-Scripting",
+      "WinPE-StorageWMI",
+      "WinPE-DSH",
+      "WinPE-PowerShell"
+    ]
+  }
+}

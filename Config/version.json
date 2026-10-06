@@ -1,0 +1,9 @@
+{
+  "ProductName": "Ultimate PC Technician",
+  "Version": "1.0.0",
+  "ReleaseStage": "Stable Release",
+  "ConfigVersion": 1,
+  "BuildDate": "2026-10-06",
+  "Author": "Apex PC Tech Solutions",
+  "License": "MIT"
+}

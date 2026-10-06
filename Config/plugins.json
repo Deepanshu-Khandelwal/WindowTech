@@ -1,0 +1,49 @@
+{
+  "Plugins": [
+    {
+      "Id": "smartctl",
+      "Name": "smartctl SMART Diagnostic Engine",
+      "Category": "Diagnostics",
+      "Description": "Open-source drive SMART health diagnostic tool and defect log analyzer.",
+      "Version": "7.4",
+      "License": "GPL-2.0",
+      "SourceUrl": "https://www.smartmontools.org",
+      "Executable": "Tools/smartctl.exe",
+      "RequiredPrivileges": "Administrator",
+      "SupportedEnvironment": "WinPE, Windows 10, Windows 11",
+      "Arguments": "-a",
+      "LoggingBehavior": "StandardOut",
+      "SafetyLevel": "LOW"
+    },
+    {
+      "Id": "testdisk",
+      "Name": "TestDisk Partition & File Carver",
+      "Category": "Data Recovery",
+      "Description": "Open-source partition table repair and deleted file recovery software.",
+      "Version": "7.2",
+      "License": "GPL-2.0+",
+      "SourceUrl": "https://www.cgsecurity.org/wiki/TestDisk",
+      "Executable": "Tools/testdisk_win.exe",
+      "RequiredPrivileges": "Administrator",
+      "SupportedEnvironment": "WinPE, Windows 10, Windows 11",
+      "Arguments": "",
+      "LoggingBehavior": "FileLog",
+      "SafetyLevel": "MEDIUM"
+    },
+    {
+      "Id": "memtest86plus",
+      "Name": "MemTest86+ Bootable Memory Diagnostic",
+      "Category": "Hardware Diagnostics",
+      "Description": "Stand-alone open-source memory test for x86/x64 architecture architecture.",
+      "Version": "7.00",
+      "License": "GPL-2.0",
+      "SourceUrl": "https://www.memtest.org",
+      "Executable": "Boot/memtest86plus.iso",
+      "RequiredPrivileges": "Bootloader",
+      "SupportedEnvironment": "UEFI, Legacy BIOS",
+      "Arguments": "",
+      "LoggingBehavior": "ScreenReport",
+      "SafetyLevel": "LOW"
+    }
+  ]
+}

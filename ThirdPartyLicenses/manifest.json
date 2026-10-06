@@ -1,0 +1,57 @@
+{
+  "ManifestVersion": "1.0",
+  "ProjectName": "Ultimate PC Technician Toolkit",
+  "CoreLicense": "MIT",
+  "Components": [
+    {
+      "Name": "Ultimate PC Technician Toolkit (Core)",
+      "Version": "1.0.0",
+      "License": "MIT",
+      "Copyright": "Copyright (c) Apex PC Tech Solutions",
+      "SourceUrl": "https://github.com/UltimateTechnician/UltimateTechnician",
+      "BundlingStatus": "Bundled",
+      "RedistributionAllowed": true,
+      "LicenseFile": "ThirdPartyLicenses/MIT-LICENSE.txt"
+    },
+    {
+      "Name": "Ventoy",
+      "Version": "1.0.96",
+      "License": "GPL-3.0",
+      "Copyright": "Copyright (c) longPanda",
+      "SourceUrl": "https://www.ventoy.net",
+      "BundlingStatus": "Bundled / External Helper",
+      "RedistributionAllowed": true,
+      "LicenseFile": "ThirdPartyLicenses/Ventoy-GPL3.txt"
+    },
+    {
+      "Name": "smartmontools (smartctl)",
+      "Version": "7.4",
+      "License": "GPL-2.0",
+      "Copyright": "Copyright (c) smartmontools Developers",
+      "SourceUrl": "https://www.smartmontools.org",
+      "BundlingStatus": "Bundled / Portable Binary",
+      "RedistributionAllowed": true,
+      "LicenseFile": "ThirdPartyLicenses/smartmontools-GPL2.txt"
+    },
+    {
+      "Name": "TestDisk & PhotoRec",
+      "Version": "7.2",
+      "License": "GPL-2.0+",
+      "Copyright": "Copyright (c) Christophe GRENIER",
+      "SourceUrl": "https://www.cgsecurity.org",
+      "BundlingStatus": "Bundled / Portable Binary",
+      "RedistributionAllowed": true,
+      "LicenseFile": "ThirdPartyLicenses/TestDisk-GPL2.txt"
+    },
+    {
+      "Name": "MemTest86+",
+      "Version": "7.00",
+      "License": "GPL-2.0",
+      "Copyright": "Copyright (c) MemTest86+ Development Team",
+      "SourceUrl": "https://www.memtest.org",
+      "BundlingStatus": "Referenced / ISO Boot Entry",
+      "RedistributionAllowed": true,
+      "LicenseFile": "ThirdPartyLicenses/MemTest86plus-GPL2.txt"
+    }
+  ]
+}

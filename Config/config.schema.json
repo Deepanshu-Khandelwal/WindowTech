@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UltimatePCTechnicianConfig",
+  "type": "object",
+  "required": ["ToolkitName", "Version", "ReleaseChannel", "ConfigVersion", "Settings", "Security"],
+  "properties": {
+    "ToolkitName": { "type": "string" },
+    "Version": { "type": "string" },
+    "ReleaseChannel": {
+      "type": "string",
+      "enum": ["stable", "beta", "development"]
+    },
+    "ConfigVersion": { "type": "integer", "minimum": 1 },
+    "Author": { "type": "string" },
+    "License": { "type": "string" },
+    "Branding": {
+      "type": "object",
+      "properties": {
+        "TechnicianName": { "type": "string" },
+        "CompanyName": { "type": "string" },
+        "ContactInfo": { "type": "string" },
+        "Theme": { "type": "string" },
+        "AccentColor": { "type": "string" },
+        "LogoPath": { "type": "string" }
+      }
+    },
+    "Settings": {
+      "type": "object",
+      "required": ["RequireDestructiveConfirmation"],
+      "properties": {
+        "OfflineMode": { "type": "boolean" },
+        "EnableDryRunDefault": { "type": "boolean" },
+        "RequireDestructiveConfirmation": { "type": "boolean", "enum": [true] },
+        "LogDirectory": { "type": "string" },
+        "AutoSaveReports": { "type": "boolean" },
+        "DefaultWindowsIsoPath": { "type": "string" },
+        "DriverRepositoryPath": { "type": "string" },
+        "PortableAppsPath": { "type": "string" }
+      }
+    },
+    "Security": {
+      "type": "object",
+      "required": ["AllowCredentialTheft", "AllowActivationBypass", "EnforceBitLockerProtection", "DestructiveConfirmationKeyword"],
+      "properties": {
+        "AllowCredentialTheft": { "type": "boolean", "enum": [false] },
+        "AllowActivationBypass": { "type": "boolean", "enum": [false] },
+        "EnforceBitLockerProtection": { "type": "boolean", "enum": [true] },
+        "DestructiveConfirmationKeyword": { "type": "string" }
+      }
+    }
+  }
+}

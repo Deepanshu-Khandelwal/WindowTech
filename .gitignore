@@ -1,0 +1,49 @@
+# Ultimate PC Technician Toolkit - .gitignore
+
+# Large Binaries & Generated Build Outputs
+*.iso
+*.wim
+*.esd
+*.vhd
+*.vhdx
+*.vmdk
+*.img
+Build/Output/*
+!Build/Output/.gitkeep
+WinPE_Tech_Build/
+
+# Technician Logs & Runtime Diagnostic Outputs
+Logs/*.log
+Diagnostics/Hardware_Validation_Report.json
+Diagnostics/PC_Health_Report.json
+Diagnostics/Hardware_Report.json
+Diagnostics/FieldValidation/UT-FIELD-*
+!Diagnostics/FieldValidation/README.md
+*.tmp
+*.bak
+scratch/
+
+# Temporary Backup, Recovery & Download Directories
+Backup/*
+!Backup/.gitkeep
+Recovery/*
+!Recovery/.gitkeep
+Downloads/*
+!Downloads/.gitkeep
+
+# Security & Credentials Safeguard (Never commit secrets)
+*.key
+*.pem
+*.pfx
+*.p12
+.env
+.env.*
+
+# OS & IDE Junk Files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.vscode/
+.idea/
+*.suo
+*.user

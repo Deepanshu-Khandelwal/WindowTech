@@ -1,0 +1,7 @@
+GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991
+
+Copyright (C) 1998-2024 Christophe GRENIER <grenier@cgsecurity.org>
+
+TestDisk and PhotoRec are licensed under GPLv2+.
+Source: https://www.cgsecurity.org
